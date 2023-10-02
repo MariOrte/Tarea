@@ -1,0 +1,167 @@
+  @import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Amaranth', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contenedor-header{
+    background-color: mediumseagreen;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.contenedor-header header .logo a{
+    font-family:  'Amaranth', sans-serif;
+    font-size: 36px;
+    color: rgb(231, 231, 18);
+    text-decoration: none;
+}
+
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: aliceblue;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.contenedor-header header nav ul li a:hover{
+    color: rgb(231, 231, 18);
+}
+
+.Inicio{
+    background-image: url(../img/blurry-gradient-haikei.svg);
+    background-size: cover;
+    height: 100vh;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.Inicio .contenido-banner{
+    padding: 20px;
+    background-color:mediumseagreen;
+    color: antiquewhite;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.Inicio .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid rgb(255, 255, 85);
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;    
+}
+
+.section-content
+{
+    margin-top: 8rem;
+    padding: 40px;
+    
+}
+
+
+/* Estilos para los fomularios */
+
+.form-group {
+    margin-top: 2rem;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón */
+.btn {
+    background-color: rgb(36, 190, 106);
+    color: rgb(231, 231, 18);
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para el área de texto de salida */
+.output-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+/*Galeria*/
+.galeria{
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    background-color: #e3f2ff;
+}
+
+.galeria h1{
+    text-align: center;
+    padding: 0.5em;
+}
+
+.galeria nav{
+    float: left;
+    width: 25%;
+    background-color: #cccfeff4;
+}
+
+.galeria nav img{
+    width: 35%;
+    margin: 5%;
+    cursor: pointer;
+}
+
+#principal{
+    float: left;
+    width: 50%;
+}
+
+#visor img {
+    width: 50%;
+    margin: 5px auto; 
+    text-align: center;
+    height: auto;
+}
+

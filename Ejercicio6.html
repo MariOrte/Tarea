@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ejercicio 6</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Ejercicio1.html">Ejercicio1</a></li>
+                    <li><a href="Ejercicio2.html">Ejercicio2</a></li>
+                    <li><a href="Ejercicio3.html">Ejercicio3</a></li>
+                    <li><a href="Ejercicio4.html">Ejercicio4</a></li>
+                    <li><a href="Ejercicio5.html">Ejercicio5</a></li>
+                    <li><a href="Ejercicio6.html">Ejercicio6</a></li>
+                    <li><a href="Ejercicio7.html">Ejercicio7</a></li>
+                    <li><a href="Ejercicio8.html">Ejercicio8</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <section class="section-content">
+        <h1>Caaluladora de Daño Pokemon</h1>
+        <form id="calculadora-form">
+            <div class="form-group">
+                <label for="Tipo Pokemon">Tipo Pokemon</label>
+             <select name="Tipo Pokemon" id="tp"> 
+                <option value="" disabled selected>Seleccionar</option>
+                 <Option value="Electro">Electro</Option>
+                 <option value="Agua">Agua</option>
+                 <option value="Planta">Planta</option>
+                 <option value="Fuego">Fuego</option>
+             </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Tipo Pokemon">Tipo Pokemon</label>
+                <select name="Tipo Pokemon" id="tp2"> 
+                    <option value="" disabled selected>Seleccionar</option>
+                    <Option value="Electro">Electro</Option>
+                    <option value="Agua">Agua</option>
+                    <option value="Planta">Planta</option>
+                    <option value="Fuego">Fuego</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Ataque">Ataque</label> <input type="number" id="ataque">
+                <label for="Defensa">Defensa</label> <input type="number" id="defensa">
+            </div>
+
+            <textarea name="" id="txtsalida" cols="30" rows="10"></textarea> 
+            <button type="button" class="btn" onclick="Mostrarr()">Mostrar</button>
+        </form>
+    </section>
+
+    <script src="js/script.js"></script>
+
+   </body>
+</html>

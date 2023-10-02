@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ejercicio 7</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Ejercicio1.html">Ejercicio1</a></li>
+                    <li><a href="Ejercicio2.html">Ejercicio2</a></li>
+                    <li><a href="Ejercicio3.html">Ejercicio3</a></li>
+                    <li><a href="Ejercicio4.html">Ejercicio4</a></li>
+                    <li><a href="Ejercicio5.html">Ejercicio5</a></li>
+                    <li><a href="Ejercicio6.html">Ejercicio6</a></li>
+                    <li><a href="Ejercicio7.html">Ejercicio7</a></li>
+                    <li><a href="Ejercicio8.html">Ejercicio8</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <section class="galeria">
+        <h1>Visor de Imagenes</h1>
+        <form id="galeria-form">
+            <div class="form-group">
+                <nav>
+                    <img onclick="changeImg(1)" src="img/img1.jpg" alt="1. tulipanes">
+                    <img onclick="changeImg(2)" src="img/img2.jpg" alt="2. Parroquia de Masaya">
+                    <img onclick="changeImg(3)" src="img/img3.jpg" alt="3. Laguna de Masaya">
+                    <img onclick="changeImg(4)" src="img/img4.jpg" alt="4. volcan de masaya">
+                    <img onclick="changeImg(5)" src="img/img5.jpg" alt="5. Campo de flores">
+                    <img onclick="changeImg(6)" src="img/img6.jpg" alt="6. Paisaje de Montañas">
+                    <img onclick="changeImg(7)" src="img/img7.jpg" alt="7. Paisaje">
+                    <img onclick="changeImg(8)" src="img/img8.jpg" alt="8. Rocas">
+                </nav>
+            </div>
+
+            <div id="Principal">
+                <div id="visor">
+                    <img src="img/img1.jpg" alt="foto" id="visorid">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <script src="/js/script.js"></script>
+</body>
+</html>
